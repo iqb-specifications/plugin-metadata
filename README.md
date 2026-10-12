@@ -3,3 +3,5 @@
 This repo is part of the tba specifications and focuses on the specification of metadata block in plugins.
 
 [Docs](https://iqb-specifications.github.io/concepts/plug-ins/metadata.html) (German only)
+
+This spec continues former [verona spec](https://github.com/verona-interfaces/verona-module-metadata).
