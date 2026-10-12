@@ -1,20 +1,20 @@
 {
-  "name": "@verona-interfaces/verona-module-metadata",
+  "name": "plugin-metadata",
   "author": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
   "license": "CC0-1.0",
-  "description": "Specification for metadata to be placed in every verona module.",
+  "description": "Specification for metadata to be placed into tba plugins.",
   "scripts": {
     "async_generate": "ag ./make_doc/asyncapi.yaml @asyncapi/html-template --param config=make_doc/asyncapi.config.json -o ./public --force-write",
     "generate_docs": "npm run async_generate && cat make_doc/add.css >> ./public/css/global.min.css"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/verona-interfaces/verona-module-metadata.git"
+    "url": "git+https://github.com/iqb-specifications/plugin-metadata.git"
   },
   "bugs": {
-    "url": "https://github.com/verona-interfaces/verona-module-metadata/issues"
+    "url": "https://github.com/iqb-specifications/plugin-metadata/issues"
   },
-  "homepage": "https://github.com/verona-interfaces/verona-module-metadata#readme",
+  "homepage": "https://github.com/iqb-specifications/plugin-metadata#readme",
   "devDependencies": {
     "@iqbspecs/validate-json": "^0.4.0",
     "@asyncapi/generator": "2.4.1",

@@ -1,14 +1,14 @@
 asyncapi: 2.5.0
 info:
-  title: verona-module-metadata
-  description: "Specification for metadata to be placed in every verona module."
+  title: plugin-metadata
+  description: "Specification for metadata to be placed into tba plugins."
   license:
     name: CC0 1.0
     url: https://creativecommons.org/publicdomain/zero/1.0/
   version: " - click on schema id to expand"
   contact:
-    name: Home of verona-interfaces (German only)
-    url: https://verona-interfaces.github.io/
+    name: Home of tba-plugins (German only)
+    url: https://iqb-specifications.github.io/concepts/plugins/
 channels:
   iqb_data_structures:
     subscribe:
@@ -17,5 +17,5 @@ channels:
         messageId: select_schema
 components:
   schemas:
-    survey-content-index:
-      $ref: '../verona-module-metadata.schema.json'
+    plugin-metadata:
+      $ref: '../plugin-metadata.schema.json'
